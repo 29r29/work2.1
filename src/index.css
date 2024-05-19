@@ -5,9 +5,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #333333;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.card {
+  border: 2px solid darkgray;
+  width: 400px;
+  border-radius: 10px;
+  margin: 30px;
+  background-color: darkgray;
+}
+.img {
+  width: 50%;
+  margin: 1px;
+  border-radius: 10px;
+}
+.inf {
+  font-size: 90%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 2px;
+  color: aliceblue;
 }
